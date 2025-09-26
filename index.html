@@ -6,13 +6,21 @@
 </head>
 <body>
 
-    <canvas id="gameCanvas" width="300" height="650">
-        <div class="line"></div>
-    </canvas>
-    <div id="gameOver" >
-        <p>Score: <span id="score"></span></p>
-        <h1>Game Over!💀</h1>
-        <button onclick="tryAgain()">Try Again</button>
+  <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="speed-indicator">Speed: <span id="speedValue">10</span></div>
+        <div class="controls">
+            <div class="steering">
+                <div class="steering-track"></div>
+                <div class="steering-handle" id="steeringHandle"></div>
+            </div>
+        </div>
+        <div id="gameOver">
+            <h1>Game Over! 💀</h1>
+            <div id="score-display">Score: <span id="score">0</span></div>
+            <button class="btn" onclick="tryAgain()">Try Again</button>
+        </div>
+        <div class="instructions">Drag the green handle to steer your car</div>
     </div>
     <script src="myCar.js"></script>
 </body>
