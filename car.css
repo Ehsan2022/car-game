@@ -1,0 +1,77 @@
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background-color: black;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+
+p{
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #094;
+        -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+#gameOver{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: red;
+    background-color: white ;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+button{
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #094;
+   
+    border-radius: 10px;
+    padding: 10px 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(8, 190, 78);
+    
+}
+
+
+.line{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(77, 46, 46);
+    z-index: 1;
+}
